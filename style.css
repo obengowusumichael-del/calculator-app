@@ -1,17 +1,43 @@
-header{
-    text-align: center;
-    color:brown;
-    font-weight: 100vh;
 
-    font-style: oblique;
-    
+
+
+.flex-box{
+
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
 }
- body{
-    text-align: center;
-    font-size: larger;
-    background-color: bisque;
-    padding: 20px;
 
- }
-    
- 
+h2{
+    position: relative;
+    padding-bottom: 24px;
+    top: 20px;
+    text-align: center;
+    color:blue;
+    font-style: italic;
+    font: bolder;
+}
+
+body.hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.8) 0px8px 20px;
+}
+
+button{
+    background-image:linear-gradient(blue, bisque);
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.705) 0px 5px 15px;
+    cursor:pointer;
+    outline: none;
+    transition: all;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 31px;
+    align-items: center;
+    display: flex;
+    color:white;
+}
+button:hover{
+    transform: rotateX(10deg) rotateY(5deg);
+    box-shadow: rgba(0, 0, 0, 0.8) 3px 8px 17px;
+}
